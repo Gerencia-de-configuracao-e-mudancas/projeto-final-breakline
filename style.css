@@ -1,9 +1,206 @@
-.imagem{
-    height: 400px;
-    width: 300px;
+* {
+    font-family: Comic Sans MS, tahoma, sans-serif;
+    color: white;
+    scroll-behavior: smooth;
 }
-.icons{
-    height: 60px;
-    width: 40px;
-    margin-bottom: 1000px;
+    
+body{
+    background-color: rgb(31, 30, 30);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 }
+
+    
+header {
+    max-width: 750px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px auto auto auto;
+}
+    
+h1{
+    font-size:37px;
+}
+    
+nav {
+    margin-right: 14px;
+}
+    
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    list-style:none;
+}
+    
+nav > ul > li {
+    color: #dfdfe2;
+    margin: 0 0.2rem;
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+    font-size: min(5vw, 1.2em);
+    background-color: rgb(51, 51, 51);
+    border-radius:14px;
+    display: block;
+}
+    
+    
+li > a {
+    text-decoration: none;
+    color: white;
+}
+    
+nav > ul > li:hover {
+    background-color: #970a0a;
+    cursor: pointer;
+}
+    
+main {
+    background-color: rgba(53, 46, 50, 0.7);
+    max-width: 750px;
+    min-width:300px;
+    margin: 30px auto 50px auto;
+    padding: 33px;
+    border-radius: 15px;
+}
+    
+#img-div {
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(160 46 200);
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+    
+#imagem {
+    height:auto;
+    border-radius: 15px;
+    display: block;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+    
+#imagem:hover {
+    transform: scale(1.1); 
+}
+
+#img-caption {
+    font-size:12px;
+    text-align:left;
+    padding: 2px;
+    padding-left: 7px;
+}
+    
+.texto {
+    font-size: 16px;
+    text-indent: 1em;
+}
+    
+#descricao {
+    font-size: 14px;
+}
+    
+.container {
+    display: flex;
+    align-items:center;
+    background-color:  rgba(32, 26, 121, 0.63);
+    border-radius: 10px;
+    flex-wrap: wrap;
+    min-height: 90px;
+}
+    
+.habilidade-container {
+    border-radius: 5px;
+}
+
+.habilidade-img {
+    border-radius: 5px;
+    height:100%;
+    max-width: 100%;
+    margin:10px 10px 10px 14px;
+    transition: transform 0.3s ease;
+}
+
+.habilidade-img:hover {
+    transform: scale(1.1); 
+}
+    
+.container-texto  {
+    min-width: 120px;
+}
+    
+.descricao-div {
+    padding: 0 15px;
+}
+    
+.tipo {
+    margin: 5px;
+}
+    
+.nome {
+    margin: 5px;
+}
+    
+.h2titulo {
+    padding-top: 30px;
+}
+
+#titulo {
+    text-shadow: 1px 1px 10px black;
+}
+
+#conteiner2 {
+    display: flex;
+}
+
+#sidebar {
+    background-color: rgba(53, 46, 50, 0.7);
+    color: white;
+    padding: 20px;
+    height: 100%;
+    min-width: 200px;
+    margin: 30px auto 50px auto;
+    border-radius:14px;
+}
+
+#champions-menu {
+    margin-bottom: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+
+#conteudo {
+    flex: 1; 
+}
+.campeao {
+    width: 64px;
+    height: 64px;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.campeao:hover {
+    transform: scale(1.2); 
+  border-color: white;
+}
+
+#nav-ekko > ul > li {
+    background-color: #187312;;
+  }
+#img-ekko {
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgb(20, 118, 210);
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+  }
