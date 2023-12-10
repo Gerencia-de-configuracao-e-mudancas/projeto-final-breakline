@@ -1,1 +1,15 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/rps_RRg3)
+<h1 align="center"> 💣 Olá viajante, prepare-se para encrenca! 💣 </h1>
+
+### 🪂 Caiu de paraquedas aqui? Vamos falar do nosso projeto 🪂
+
+* Meu nome é João Gabriel e, aliado a Kahê e a Daniel de Morais, faremos um site explicando um pouco mais a fundo os personagens da série Arcane do lol
+
+* Esse site vai:
+
+- [X] Te dar um norte sobre as histórias originais das personagens
+
+- [X] Explorar o design e desenvolvimento das mesmas
+
+- [X] Mostrar as habilidades in-game dos campeões
+
+- [ ] Falar bem da [Riot Games](https://www.riotgames.com/pt-br) sob qualquer circunstância.
